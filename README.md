@@ -4,7 +4,11 @@
 Pada dasarnya Apache Spark merupakan sebuah framework atau environtment yang dapat digunakan untuk mengakses data dari berbagai sumber berbeda, kemudian mengolah data tersebut, kemudian menyimpannya kedalam penyimpanan data untuk dianalisis, biasanya spark digunakan untuk melakukan analisis data berskala besar (Big Data).Apache Spark melakukan pemrosesan data melalui in-memory, sehingga waktu pemrosesan lebih cepat daripada framework sejenis seperti MapReduce dan lainnya.
 
 ### **Model Pemrosesan Data yang Digunakan**
-Pada Project ini Menerapkan Batch Processing Data, dimana proses Batch merupakan sebuah metode untuk melakukan pengumpulan data dalam jumlah besar dan memprosesnya dalam satu waktu. Dimana pada Project Ini data dikumpulkan dengan melakukan web scraper dengan menggunakan modul google_play_scraper yang tersedia pada jupyter notebook/python kemudian data yang didapatkan akan dikumpulkan terlebih dahulu dan dibagi menjadi beberapa batch, kemudian dilakukan pemrosesan secara bersamaan. as
+Pada Project ini Menerapkan Batch Processing Data, dimana proses Batch merupakan sebuah metode untuk melakukan pengumpulan data dalam jumlah besar dan memprosesnya dalam satu waktu. Dimana pada Project Ini data dikumpulkan dengan melakukan web scraper dengan menggunakan modul 
+```python
+pip install google-play-scraper
+```
+yang tersedia pada jupyter notebook/python kemudian data yang didapatkan akan dikumpulkan terlebih dahulu dan dibagi menjadi beberapa batch, kemudian dilakukan pemrosesan secara bersamaan
 
 ### **Preprocessing Data**
 
@@ -34,8 +38,6 @@ Sebelum melakukan prosessing dari batch-batch data yang dikumpulkan, langkah per
 - tampilkan confunsion matriks
 
 ### **Visualisasi Sentimen Positif dan Negatif dengan menggunakan Wordcloud**
-
-### **Melakukan uji coba dengan menginputkan content review secara bebas untuk mengukur model yang sudah dibangun dari data pelatihan**
 
 
 
