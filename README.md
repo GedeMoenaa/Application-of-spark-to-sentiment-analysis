@@ -1,4 +1,4 @@
-# **Penerapan Spark dengan Menggunakan Metode Naive Bayes Pada Analisis Sentimen Tingkat Kepuasan Pengguna Aplikasi Go-jek Berdasarkan Rating dan Review yang diberikan pengguna Pada Google Play Store**
+# **Penerapan Spark dengan Menggunakan Metode Naive Bayes Pada Analisis Sentimen Tingkat Kepuasan Pengguna Aplikasi Go-jek Berdasarkan Rating dan Review yang diberikan Pengguna Pada Google Play Store**
 
 ### **Mengapa Menggunakan Spark Pada Proses Pengolahan Data?**
 Pada dasarnya Apache Spark merupakan sebuah framework atau environtment yang dapat digunakan untuk mengakses data dari berbagai sumber berbeda, kemudian mengolah data tersebut, kemudian menyimpannya kedalam penyimpanan data untuk dianalisis, biasanya spark digunakan untuk melakukan analisis data berskala besar (Big Data).Apache Spark melakukan pemrosesan data melalui in-memory, sehingga waktu pemrosesan lebih cepat daripada framework sejenis seperti MapReduce dan lainnya.
